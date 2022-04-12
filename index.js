@@ -35,11 +35,6 @@ client.on('messageCreate', (message) => {
                 message.reply("10레벨 홍염의 보석")
             }        
     }    
-    if (message.content.startsWith('!로아와 ') || message.content == '!로아와') {
-      const arguments = message.content.split(/[ ]+/)
-      arguments.shift()
-      message.reply(`https://loawa.com/char/${arguments[0]`)
-    }  
   })
 
 client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.938jzoPCZKXSzRT1IBxM5RQ29k0")
