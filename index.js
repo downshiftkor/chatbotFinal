@@ -27,13 +27,7 @@ client.on('messageCreate', (message) => {
     }
     ( Math.random () * (1 - 0) ) + 0
     if(message.content == "!10멸도박" ){
-       int gem = 1
-            if(gem>0){
-                message.reply("10레벨 멸화의 보석")
-            }
-            if(gem<0){
-                message.reply("10레벨 홍염의 보석")
-            }
+        message.reply("10레벨 멸화의 보석")
     }
     
   })
