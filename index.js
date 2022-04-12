@@ -35,6 +35,9 @@ client.on('messageCreate', (message) => {
                 message.reply("10레벨 홍염의 보석")
             }        
     }    
+    if(message.content == "!자살" ){
+       message.reply("https://idfarm.co.kr/")
+ 
   })
 
 client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.938jzoPCZKXSzRT1IBxM5RQ29k0")
