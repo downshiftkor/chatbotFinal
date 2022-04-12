@@ -32,4 +32,4 @@ client.on('messageCreate', (message) => {
     
   })
 
-client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.FDTZ9aZpgz85yCtz1g49C4RaBp8")
+client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.938jzoPCZKXSzRT1IBxM5RQ29k0")
