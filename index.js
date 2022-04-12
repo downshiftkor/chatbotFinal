@@ -43,7 +43,7 @@ client.on('messageCreate', (message) => {
       const arguments = message.content.split(/[ ]+/)
       arguments.shift()
 
-      message.reply(`https://loawa.com/char/arguments[0]`)
+      message.reply(`https://loawa.com/char/${arguments[0]}`)
     }
     
     
