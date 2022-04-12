@@ -25,6 +25,17 @@ client.on('messageCreate', (message) => {
     if(message.content == "인파이터" ){
         message.reply("상향필수")
     }
+    ( Math.random () * (1 - 0) ) + 0
+    if(message.content == "!10멸도박" ){
+       let gem = Math.random()
+            if(gem>0){
+                message.reply("10레벨 멸화의 보석")
+            }
+            if(gem<0){
+                message.reply("10레벨 홍염의 보석")
+            }
+    }
+    
   })
 
 client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.FDTZ9aZpgz85yCtz1g49C4RaBp8")
