@@ -27,10 +27,14 @@ client.on('messageCreate', (message) => {
     }
     ( Math.random () * (1 - 0) ) + 0
     if(message.content == "!10멸도박" ){
-        let gem = Math.random()
-        message.reply(gem)
-    }
-    
+        var random = Math.floor(Math.random() * 10) + 1;
+            if(random>5){
+                message.reply("10레벨 멸화의 보석")
+            }
+            if(random<5){
+                message.reply("10레벨 홍염의 보석")
+            }        
+    }    
   })
 
 client.login("OTI1NjY3OTM3MTA3NDc2NTIw.Ycwdcg.938jzoPCZKXSzRT1IBxM5RQ29k0")
