@@ -38,7 +38,7 @@ client.on('messageCreate', (message) => {
     if (message.content.startsWith('!로아와 ') || message.content == '!로아와') {
       const arguments = message.content.split(/[ ]+/)
       arguments.shift()
-      message.reply(`https://loawa.com/char/{arguments[0]`)
+      message.reply(`https://loawa.com/char/${arguments[0]`)
     }  
   })
 
