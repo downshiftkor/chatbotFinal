@@ -29,7 +29,7 @@ client.on('messageCreate', (message) => {
     if(message.content == "!10멸도박" ){
         var random = Math.floor(Math.random() * 10) + 1;
             if(random>5){
-                message.reply("10레벨 멸화의 보석")
+                message.reply("두바스")
             }
             if(random<5){
                 message.reply("10레벨 홍염의 보석")
