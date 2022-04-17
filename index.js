@@ -32,7 +32,7 @@ client.on('messageCreate', (message) => {
                 message.reply("두바스")
             }
             if(random<5){
-                message.reply("10레벨 홍염의 보석")
+                message.reply("김학재")
             }        
     }    
     if(message.content == "!자살" ){
