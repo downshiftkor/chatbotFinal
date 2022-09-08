@@ -22,9 +22,6 @@ client.on('messageCreate', (message) => {
       message.reply(`8인 기준 ${arguments[0] * 0.75}원 까지`)
     }
 
-    if(message.content == "인파이터" ){
-        message.reply("상향필수")
-    }
     ( Math.random () * (1 - 0) ) + 0
     if(message.content == "!10멸도박" ){
         var random = Math.floor(Math.random() * 10) + 1;
