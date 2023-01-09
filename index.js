@@ -32,9 +32,6 @@ client.on('messageCreate', (message) => {
                 message.reply("10레벨 홍염의 보석")
             }        
     }    
-    if(message.content == "!자살" ){
-       message.reply("https://idfarm.co.kr/")
-    }
     
     if (message.content.startsWith('!로아와 ') || message.content == '!로아와') {
       const arguments = message.content.split(/[ ]+/)
